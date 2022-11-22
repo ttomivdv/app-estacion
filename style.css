@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    width: 100vw;
+    height: fit-content;
+    font-family: 'Raleway',sans-serif;
+}
+
+.card{
+    background-color: beige;
+    width: 600px;
+    height: fit-content;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 30px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card__title{
+    padding: 15px;
+    font-size: 15pt;
+    font-weight: 700;
+}
+.card__location{
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+}
+.card__visits{
+    font-size: 10pt;
+    height: auto;
+    width: 100%;
+    margin:10px;
+}
+.img-location{
+    height: 20px;
+    width: 20px;
+    background-image: url(./marcador-de-posicion.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    float:left;
+    margin: 10px;
+}
+
+.img-visits{
+    height: 20px;
+    width: 20px;
+    background-image: url(./visitas.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    float:left;
+    margin:10px;
+}
+.location2{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card:hover{
+   background-color: rgb(172, 131, 78);
+}
+
+.card__title:hover{
+    color: white;
+}
